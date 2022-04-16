@@ -1,0 +1,123 @@
+body{
+    background-image:url('../images/back.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+#quarto_table TD {
+    width: 7em;
+    height:3em;
+    border:1px solid rgb(180, 143, 39);
+    text-align:center;
+    height: 7em;
+   
+
+
+}
+#quarto_table{
+    position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  background-color:rgb(0, 0, 0);
+ 
+}
+
+TD.quarto_square {
+    transform: rotate(-45deg);
+    
+}
+
+h1 {
+position: relative;
+margin-left: 43%;
+font-family: cursive;
+text-shadow: 3px 3px;
+  }
+
+  #cart{
+      width: 50%;
+      position: fixed;
+      top: 70%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+     
+  }
+  .btn{
+    padding: 10px 35px;
+    background-color: transparent;
+    outline: none;
+    transition: .6s ease;
+    border-radius: 30px;
+    color: rgb(190, 56, 38);
+    position: fixed;
+    margin-left: 40%;
+    margin-top: 15%;
+    font-family: cursive;
+}
+
+
+  #reset{
+      padding: 10px 35px;
+      padding-bottom: 10px;
+      background-color: transparent;
+      outline: none;
+      transition: .6s ease;
+      border-radius: 30px;
+      color: rgb(190, 56, 38);
+      position: fixed;
+      margin-top: -10%;
+      margin-left: 3%;
+      font-family: cursive;
+  }
+
+  #reset:hover{
+      cursor: pointer;
+      background-color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
+      box-shadow: 0 0 5px rgb(0, 0, 0), 0 0 rgb(0, 0, 0), 0 0 15px rgb(2, 2, 2);
+      font-weight: bold;
+  }
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgb(0, 0, 0), 0 0 rgb(0, 0, 0), 0 0 15px rgb(2, 2, 2);
+    font-weight: bold;
+}
+
+.form-control{
+    background-color:rgb(162, 208, 247);
+    opacity: 0.6;
+
+}
+.input-group-text{
+    background-color:rgb(162, 208, 247);
+    opacity: 0.6;
+}
+
+#pieces_board{
+    background-color: rgb(0, 0, 0);
+    width: 21%;
+    height: 45vh;
+    border-radius: 30px;
+    margin-top: 20%;
+    margin-left: 3%;
+    color: rgb(180, 143, 39);
+    font-family:cursive;
+    position: relative;
+}
+.select{
+    margin-left:55px;
+}
+.pieces{
+    margin:5px;
+    cursor: pointer;
+}
+
+.picked{
+    display: none;
+}
